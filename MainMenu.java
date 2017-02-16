@@ -85,6 +85,9 @@ public class MainMenu extends javax.swing.JPanel {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
+            /*
+            here, we are using the layout of the buttons and label and the horizontal spacing between buttons and label.
+            */
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -101,6 +104,9 @@ public class MainMenu extends javax.swing.JPanel {
                 .addGap(51, 51, 51))
         );
         layout.setVerticalGroup(
+            /*
+            here we are doing vertical layout of the buttons and the label and the spacing between the buttons and labels.
+            */
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(48, 48, 48)
