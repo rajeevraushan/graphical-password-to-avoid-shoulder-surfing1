@@ -49,33 +49,33 @@ public class MainMenu extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
-        lbl_head = new javax.swing.JLabel();//label heading is generated with
-        btn_register = new javax.swing.JButton();
-        btn_login = new javax.swing.JButton();
+        lbl_head = new javax.swing.JLabel();//label heading is generated with lbl_head.
+        btn_register = new javax.swing.JButton();//register button is created with btn_register.
+        btn_login = new javax.swing.JButton();//login button is created with btn_login.
 
         setBackground(new java.awt.Color(51, 255, 255));//with this we will set the background color.
         setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));//to set border we use this.
 
-        lbl_head.setBackground(new java.awt.Color(0, 153, 153));
-        lbl_head.setFont(new java.awt.Font("Tahoma", 3, 22)); // NOI18N
-        lbl_head.setForeground(new java.awt.Color(0, 0, 153));
-        lbl_head.setText("Graphical User Password");
+        lbl_head.setBackground(new java.awt.Color(0, 153, 153));//to set the background for the lbl_head.
+        lbl_head.setFont(new java.awt.Font("Tahoma", 3, 22)); // NOI18N TO set the font of the lbl_head.
+        lbl_head.setForeground(new java.awt.Color(0, 0, 153));//to set the forground of the setforeground.
+        lbl_head.setText("Graphical User Password");//name of lbl_head is updated to "Graphical User Password"
 
         btn_register.setBackground(new java.awt.Color(0, 204, 204));//to set background color of the register button.
         btn_register.setForeground(new java.awt.Color(102, 102, 255));//to set the foreground color of the register button
         btn_register.setText("Register New User");//here we are writing the register button as Register New User.
         btn_register.setToolTipText("");
-        btn_register.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btn_register.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));//here we are setting border.
         btn_register.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_registerActionPerformed(evt);
             }
         });
 
-        btn_login.setBackground(new java.awt.Color(0, 204, 204));
-        btn_login.setForeground(new java.awt.Color(102, 102, 255));
-        btn_login.setText("User Login");
-        btn_login.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btn_login.setBackground(new java.awt.Color(0, 204, 204));//to set the background color of the login button.
+        btn_login.setForeground(new java.awt.Color(102, 102, 255));//to set the foreground of the 
+        btn_login.setText("User Login");//to change the name of the "User Login".
+        btn_login.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));//to set the border of the UserLogin
         btn_login.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_loginActionPerformed(evt);
