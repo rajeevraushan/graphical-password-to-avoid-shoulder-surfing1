@@ -86,7 +86,7 @@ public class MainMenu extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             /*
-            here, we are using the layout of the buttons and label and the horizontal spacing between buttons and label.
+            here, we are using the layout of the buttons and label and the horizontal spacing between buttons and label i.e. login,register and label.
             */
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
@@ -105,7 +105,7 @@ public class MainMenu extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             /*
-            here we are doing vertical layout of the buttons and the label and the spacing between the buttons and labels.
+            here we are doing vertical layout of the buttons and the label and the spacing between the buttons and labels.i.e. login,register and label.
             */
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
