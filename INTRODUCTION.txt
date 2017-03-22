@@ -31,5 +31,6 @@ MS. AMRITA MAM                                                                  
                                                                                  
        Code link for other group members
        mayank tripathi- https://github.com/mayank5473/Graphicalpassword2
+       sarthak tyagi-https://github.com/sarthaktyagi/graphicalpassword/tree/sarthaktyagi-patch-1
        
 
